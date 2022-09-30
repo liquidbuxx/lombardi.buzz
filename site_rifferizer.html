@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="style.css">
+<style>
+    table, th, td{
+    border:1px solid black;
+    text-align: center;
+    color: black;
+    font-size: x-large;
+    padding: 2px;
+    margin: 2px;
+    }
+
+</style>
+
+<body>    
+    <div  class="nav">
+        <img src="pics/logo.jpg" alt="logo" style="width: 50px; height: 60px;">
+        <h2 style="position: absolute; left: 70px;">buzz lombardi</h2>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="site_works.html">video</a></li>
+                <li><a href="site_photos.html">images</a></li>
+                <li><a href="site_music.html">music</a></li>
+                <li><a href="site_contact.html">contact</a></li>
+            </ul>
+    </div>
+        
+    <div>
+        <center>
+
+            <h1>Equal Parts Rifferizer</h1>
+            
+            <h3>Click the button below to generate a random Equal Parts Cocktail!</h3>
+            
+            <!--Table Format-->
+                <table>
+                    <tr>
+                        <bold>
+                        <td style="font-weight: bold;" >Spirit</td>
+                        <td style="font-weight: bold;">Citrus</td>
+                        <td style="font-weight: bold;">Herbal</td>
+                        <td style="font-weight: bold;">Bright</td>
+                        </bold>
+                    </tr>
+                    <tr>
+                        <td id="spirit"></td>
+                        <td id="citrus"></td>
+                        <td id="herbal"></td>
+                        <td id="bright"></td>
+                    </tr>
+                </table>
+                <br>
+                <button onclick="window.location.reload();">New Drink!</button>
+            </center>
+    </div>
+    <br>
+    <center>
+    <h3>Buzz's Cocktails</h3>
+    <p>Click a drink for it's recipe :)</p>
+    <div style="display: inline; align-items: center;">
+        
+        <button onclick="peach()">
+        <img src="pics/cocktail_peach_maitai.jpg" alt="Peach Mai Tai" style="width: 300px;">
+        <figcaption>Peach Mai Tai</figcaption>
+        </button>
+
+        <button onclick="coronado()">
+        <img src="pics/cocktail_coronado_II.jpg" alt="Coronado II" style="width: 300px;">
+        <figcaption>Coronado II</figcaption>
+        </button>
+    </div>
+    </center>
+
+        <script>
+        //Rifferizer
+            vSpirit = Math.floor(Math.random() * 5)
+            vCitrus = Math.floor(Math.random() * 4)
+            vHerbal = Math.floor(Math.random() * 7)
+            vBright = Math.floor(Math.random() * 9)
+            
+            //Array of base spirits
+            const spirit = [];
+                spirit[0]= "Gin";
+                spirit[1]= "Tequila";
+                spirit[2]= "Whisky";
+                spirit[3]= "Rum";
+                spirit[4]= "Scotch"
+            //getting random spirit from array
+                let spiritName = spirit[vSpirit]
+                document.getElementById("spirit").innerHTML = spiritName;
+            
+            //Array of Citrus Juices
+                const citrus = [];
+                    citrus[0]= "Lemon";
+                    citrus[1]= "Lime";
+                    citrus[2]= "Orange";
+                    citrus[3]= "Grapefruit";
+            //getting random citrus from array
+                let citrusName = citrus[vCitrus]
+                document.getElementById("citrus").innerHTML = citrusName;
+            
+            //Array of Herbal Amari
+            const herbal = [];
+                    herbal[0]= "Ramazotti";
+                    herbal[1]= "Cynar";
+                    herbal[2]= "Nonino";
+                    herbal[3]= "Averna";
+                    herbal[4]= "Fernet";
+                    herbal[5]= "Campari";
+                    herbal[6]= "Absinthe"
+            //getting random herbal from array
+                let herbalName = herbal[vHerbal]
+                document.getElementById("herbal").innerHTML = herbalName;
+            
+            //Array of Bright Amari/Syrups
+            const bright = [];
+                    bright[0]= "Vermouth";
+                    bright[1]= "Maraschino";
+                    bright[2]= "Dry Curacao";
+                    bright[3]= "St. Germain";
+                    bright[4]= "Simple";
+                    bright[5]= "Aperol";
+                    bright[6]= "Cointreau";
+                    bright[7]= "Apple Brandy";
+                    bright[8]= "Banana Liqueur";
+            //getting random bright from array
+                let brightName = bright[vBright]
+                document.getElementById("bright").innerHTML = brightName;
+            
+            //cocktail recipe alerts
+            function coronado() {
+                alert("Coronado II\n\n1.5oz Mezcal\n1oz Ramazotti\n1oz Sweet Vermouth\n1.25oz Maraschino\n\nStirred, Garnish w/ Luxardo Cherry");
+            }
+
+            function peach() {
+                alert("Peach Mai Tai\n\n1.5oz Rum\n")
+            }
+        </script>    
+</body>
+</html>

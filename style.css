@@ -1,0 +1,76 @@
+/* CSS STYLE SHIT */
+
+body        {background-color: #d5e4d9}
+h1          {font-family: monospace; text-decoration: double; text-align: center;} /* page heading */
+h2          {font-family: monospace; color: white; text-align: center;} /* top bar + nav links*/
+h3          {font-family: monospace; padding: 5px;} 
+p           {font-family: monospace;}
+a           {font-family: monospace; color: white;}
+a:active    {color: #d5e4d9;}
+
+.title {
+    display: inline-flex;
+    justify-content: flex-start;
+    margin: 25px;
+    padding: 0%;
+    position: sticky;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #387b5b;
+    margin: 2px;
+    padding: 0%;
+    position: sticky;
+    text-decoration: none;
+}
+
+.nav li {
+    display: inline;
+    font-size: 20px;
+    padding: 5px;
+    position: sticky;
+}
+
+.pic_vert {
+    max-width: 225px;
+    height: 300px;
+}
+
+.pic_hori {
+    width: 300px;
+    height: 225px;
+}
+
+.pic_dip {
+    width: 420px;
+    height: 300px;
+}
+
+.content {
+    padding:d 18px;
+    background-color: #d5e4d9;
+    max-height: 0;
+    width: 50%;
+    margin-left: 25%;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-family: monospace;
+  }
+
+.collapsible {
+    background-color: #387b5b;
+    color: #d5e4d9;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    margin-left: 25%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    font-family: monospace;
+    
+  }

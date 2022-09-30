@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="style.css">
+
+<body>   
+    <div  class="nav">
+        <img src="pics/logo.jpg" alt="logo" style="width: 50px; height: 60px;">
+        <h2 style="position: absolute; left: 70px;">buzz lombardi</h2>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="site_works.html">video</a></li>
+                <li><a href="site_photos.html">images</a></li>
+                <li><a href="site_music.html">music</a></li>
+                <li><a href="site_contact.html">contact</a></li>
+            </ul>
+    </div>
+    <div>
+        <h1>professional videos</h1>
+    </div>
+
+    <!--Ylayali Button-->
+    <button class="collapsible" style="text-align: center; 
+        color:black; font-family: monospace;">Ylayali
+    </button>
+    <div class="content">
+        <center>
+        <h3>Francis asked me to help him make two music videos for his 
+            latest album Separation. He is one of my favorite artists, and 
+            gettingto work with him is always fun. He came to me with the ideas, and 
+            tolerated my input, way more then he should have. </h3>
+        <iframe width="640" height="480" 
+            src="https://www.youtube.com/embed/m4c_RCAlmh0" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+        <br>
+        <iframe width="640" height="480" src="https://www.youtube.com/embed/UOho7DMcwbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </center>
+    </div>
+    <br>
+    <!--RememberSports Button-->
+    <button class="collapsible" style="text-align: center;
+        color: black; font-family: monospace;">Remember Sports
+    </button>
+    <div class="content">
+        <center>
+        <h3>Carmen from Remember Sports and I have known each other for a long time.
+            When she asked me to shoot a music video for their new song, Leap Day,
+            it was a no brainer. We had an absolute blast making this video, and 
+            it came out great. 
+        </h3>
+        <iframe width="640" height="480" 
+            src="https://www.youtube.com/embed/ekWeBCRdCAM" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+        </center>
+    </div>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            }
+          });
+        }
+        </script>
+</body>
+</html>
