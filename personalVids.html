@@ -25,7 +25,8 @@
 
     <div>
         <center>
-            <h1>personal videos</h1>
+            <br>
+            <h1>pacemaker</h1>
             <h2 style="color: black;">we don't know</h2>
             <iframe width="640" height="480" src="https://www.youtube.com/embed/Nizul-YgTNc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <h2 style="color: black;">beeps</h2>
@@ -38,5 +39,65 @@
             <iframe width="640" height="480" src="https://www.youtube.com/embed/4ZJaoCYS9E4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </center>
     </div>
+    <div>
+        <center>
+                <!--Ylayali Button-->
+    <button class="collapsible" style="text-align: center; 
+    color:black; font-family: monospace;">Ylayali
+</button>
+<div class="content">
+    <center>
+    <h3>Francis asked me to help him make two music videos for his 
+        latest album <i>Separation</i>. He is one of my favorite artists, and 
+        getting to work with him is always fun. He came to me with the ideas, and 
+        tolerated my input, way more then he should have. </h3>
+    <iframe width="640" height="480" 
+        src="https://www.youtube.com/embed/m4c_RCAlmh0" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+    <br>
+    <iframe width="640" height="480" src="https://www.youtube.com/embed/UOho7DMcwbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+</div>
+<br>
+<!--RememberSports Button-->
+<button class="collapsible" style="text-align: center;
+    color: black; font-family: monospace;">Remember Sports
+</button>
+<div class="content">
+    <center>
+    <h3>Carmen and I have known each other for a long time.
+        When she asked me to shoot a music video for their new song, <i>Leap Day</i>,
+        it was a no brainer. We had an absolute blast making this video, and 
+        it came out great. 
+    </h3>
+    <iframe width="640" height="480" 
+        src="https://www.youtube.com/embed/ekWeBCRdCAM" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+    </center>
+</div>
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+</script>
 </body>
 </html>
