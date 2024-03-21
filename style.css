@@ -84,6 +84,9 @@ a:active    {color: #d5e4d9;}
     max-height: 100%;
     margin: auto;
     overflow: auto;
+    position: fixed;
     right: 0;
     top: 0;
+    object-fit: contain;
+    -o-object-fit: contain;
 }
