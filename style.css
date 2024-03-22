@@ -54,6 +54,15 @@ a:active    {color: #d5e4d9;}
     height: 280px;
 }
 
+.pic_new {
+    width: 1024;
+    height: 576;
+}
+
+.pic_newv {
+    width: 576;
+    height: 1024;
+}
 .content {
     padding:d 18px;
     background-color: #d5e4d9;
