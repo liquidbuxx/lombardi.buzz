@@ -84,8 +84,6 @@ a:active    {color: #d5e4d9;}
     max-width: 160px;
     height: auto;
     border: 2px solid;
-    resize: both;
-    overflow: scroll;
     object-fit: scale-down;
     -o-object-fit: scale-down;
 }
