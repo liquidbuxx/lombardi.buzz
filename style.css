@@ -80,13 +80,12 @@ a:active    {color: #d5e4d9;}
   }
 
 .img {
-    max-width: fit-content;
-    max-height: fit-content;
     margin: auto;
-    overflow: auto;
-    position: fixed;
-    right: 0;
-    top: 0;
-    object-fit: contain;
-    -o-object-fit: contain;
+    width: 160px;
+    height: 160px;
+    border: 2px solid;
+    resize: both;
+    overflow: scroll;
+    object-fit: scale-down;
+    -o-object-fit: scale-down;
 }
