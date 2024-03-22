@@ -80,10 +80,6 @@ a:active    {color: #d5e4d9;}
   }
 
 .img {
-    margin: auto;
     max-width: 160px;
-    height: auto;
-    border: 2px solid;
-    object-fit: scale-down;
-    -o-object-fit: scale-down;
+    max-height: 160px;
 }
