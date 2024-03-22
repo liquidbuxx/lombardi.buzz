@@ -55,13 +55,11 @@ a:active    {color: #d5e4d9;}
 }
 
 .pic_new {
-    width: 1024;
-    height: 576;
+    width: 100%;
 }
 
 .pic_newv {
-    width: 576;
-    height: 1024;
+    width: 100%;
 }
 .content {
     padding:d 18px;
