@@ -1,13 +1,13 @@
 /* CSS STYLE SHIT */
 
 
-body        {background-color: #7fd4f3)}
+body        {background-color: #3a788f)}
 h1          {font-family: monospace; text-decoration: double; text-align: center;} /* page heading */
 h2          {font-family: monospace; color: black; text-align: center;} /* top bar + nav links*/
 h3          {font-family: monospace; padding: 5px;} 
 p           {font-family: monospace;}
 a           {font-family: monospace; color: black;}
-a:active    {color: #7fd4f3;}
+a:active    {color: #3a788f;}
 
 .title {
     display: inline-flex;
