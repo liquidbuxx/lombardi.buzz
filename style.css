@@ -64,7 +64,7 @@ a:active    {color: #518294;}
 }
 .content {
     padding:d 18px;
-    background-color: #00678c;
+    background-color: #518294;
     max-height: 0;
     width: 50%;
     margin-left: 25%;
@@ -74,8 +74,8 @@ a:active    {color: #518294;}
   }
 
 .collapsible {
-    background-color: #00678c;
-    color: #00678c;
+    background-color: #518294;
+    color: #518294;
     cursor: pointer;
     padding: 24px;
     width: 50%;
