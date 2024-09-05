@@ -20,7 +20,7 @@ a:active    {color: #d5e4d9;}
 .nav {
     display: flex;
     justify-content: space-between;
-    background-color: #387b5b;
+    background-color: #fbd1a2;
     margin: 2px;
     padding: 0%;
     position: sticky;
@@ -73,7 +73,7 @@ a:active    {color: #d5e4d9;}
   }
 
 .collapsible {
-    background-color: #387b5b;
+    background-color: #00678c;
     color: #d5e4d9;
     cursor: pointer;
     padding: 24px;
