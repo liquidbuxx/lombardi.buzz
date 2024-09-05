@@ -1,12 +1,13 @@
 /* CSS STYLE SHIT */
 
-body        {background-color: #d5e4d9}
+    background-color: #00678c;
+body        {background-color: #00678c}
 h1          {font-family: monospace; text-decoration: double; text-align: center;} /* page heading */
 h2          {font-family: monospace; color: white; text-align: center;} /* top bar + nav links*/
 h3          {font-family: monospace; padding: 5px;} 
 p           {font-family: monospace;}
 a           {font-family: monospace; color: white;}
-a:active    {color: #d5e4d9;}
+a:active    {color: #00678c;}
 
 .title {
     display: inline-flex;
@@ -74,7 +75,7 @@ a:active    {color: #d5e4d9;}
 
 .collapsible {
     background-color: #00678c;
-    color: #d5e4d9;
+    color: #00678c;
     cursor: pointer;
     padding: 24px;
     width: 50%;
