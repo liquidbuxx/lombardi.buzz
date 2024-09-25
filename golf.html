@@ -28,4 +28,30 @@
             <iframe width="1024" height="768" src="https://www.youtube.com/embed/wRG2GimI5gE?si=rIo3YIwNbiD0Arwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </center>
+    <button class="collapsible" style="text-align: center; 
+        color:black; font-family: monospace;">Match Play 9.21.24
+    </button>
+    <div class="collapsible">
+        <center>
+
+        </center>
+    </div>
+
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            }
+          });
+        }
+    </script>
 </body>
