@@ -2,8 +2,7 @@
 <html>
 
 <link rel="stylesheet" href="style.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-
+<meta name="viewport" content="width=1280, initial-scale=1">
 <head>
     <title>Buzz Lombardi | Golf</title>
     <link rel="icon" type="image/x-icon" href="pics/logo.jpg">
@@ -124,5 +123,10 @@
             }
           });
         }
+
+        var siteWidth = 1280;
+        var scale = screen.width /siteWidth;
+
+        document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
     </script>
 </body>
