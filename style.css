@@ -45,6 +45,11 @@ a:active    {color: #518294;}
     height: 480px;
 }
 
+.pic_alb {
+    width: 500;
+    height: 500;
+}
+
 .pic_dip {
     width: 420px;
     height: 300px;
