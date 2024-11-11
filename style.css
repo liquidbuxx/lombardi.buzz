@@ -22,7 +22,7 @@ a:active    {color: #3f8058;}
 .nav {
     display: flex;
     justify-content: space-between;
-    background-color: #5eaf77;
+    background-color: #f1d39b;
     margin: 2px;
     padding: 0%;
     position: sticky;
