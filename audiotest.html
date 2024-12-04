@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="sytle2.css">
+</head>
+<body>
+  <div id="player">
+    <div id="current-track">
+      <img id="album-art" src="default-art.jpg" alt="Album Art">
+      <div id="track-info">
+        <h2 id="track-title">Track Title</h2>
+        <p id="track-artist">Artist Name</p>
+      </div>
+    </div>
+    <div id="controls">
+      <button id="prev">⏮</button>
+      <button id="play-pause">▶</button>
+      <button id="next">⏭</button>
+      <input type="range" id="progress" value="0">
+    </div>
+    <ul id="playlist">
+      <!-- Playlist items added dynamically -->
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
