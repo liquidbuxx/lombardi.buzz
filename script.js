@@ -13,7 +13,7 @@ const tracks = [
         title: "beatsbreak",
         url: "music/beatsbreak.mp3",
         albumArt: "music/album cover.png"
-    },
+    }
   ];
   
   const audio = new Audio();
@@ -67,7 +67,7 @@ const tracks = [
   
   tracks.forEach((track, index) => {
     const listItem = document.createElement("li");
-    listItem.textContent = `${track.title} - ${track.artist}`;
+    listItem.textContent = `${track.title}`;
     listItem.addEventListener("click", () => {
       currentTrackIndex = index;
       loadTrack(currentTrackIndex);
