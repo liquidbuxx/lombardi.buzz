@@ -28,7 +28,6 @@ const tracks = [
     audio.src = track.url;
     albumArt.src = track.albumArt;
     trackTitle.textContent = track.title;
-    trackArtist.textContent = track.artist;
   }
   
   function playPause() {
