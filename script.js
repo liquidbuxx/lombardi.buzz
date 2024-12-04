@@ -1,9 +1,9 @@
 const tracks = [
     {
-      title: "Song 1",
-      artist: "Artist 1",
-      url: "https://example.com/song1.mp3",
-      albumArt: "https://example.com/art1.jpg"
+      title: "Against The Wind",
+      artist: "Pacemaker",
+      url: "music/against the wind.mp3",
+      albumArt: "music/album cover.png"
     },
     {
       title: "Song 2",

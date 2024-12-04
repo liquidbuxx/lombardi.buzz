@@ -3,7 +3,7 @@ const ctx = canvas.getContext("2d");
 const audio = document.getElementById("audio");
 
 const albumArt = new Image();
-albumArt.src = "music/album cover.png"; // Replace with your album art URL
+albumArt.src = "music/album cover.png" // Replace with your album art URL
 
 let audioContext;
 let analyzer;

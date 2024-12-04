@@ -3,31 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Visualizer</title>
-  <style>
-    body {
-      background: #000;
-      color: #fff;
-      text-align: center;
-      font-family: Arial, sans-serif;
-    }
-    canvas {
-      display: block;
-      margin: 20px auto;
-      border: 2px solid #444;
-      background: #111;
-    }
-    audio {
-      margin-top: 20px;
-    }
-  </style>
+  <title>Music Player</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <canvas id="visualizer" width="600" height="600"></canvas>
-  <audio id="audio" controls>
-    <source src="music/against the wind.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-  <script src="script2.js"></script>
+  <div id="player">
+    <div id="current-track">
+      <img id="album-art" src="music/album cover.png" alt="Pacemaker VIII">
+      <div id="track-info">
+        <h2 id="track-title">Track Title</h2>
+        <p id="track-artist">Artist Name</p>
+      </div>
+    </div>
+    <div id="controls">
+      <button id="prev">⏮</button>
+      <button id="play-pause">▶</button>
+      <button id="next">⏭</button>
+      <input type="range" id="progress" value="0">
+    </div>
+    <ul id="playlist">
+      <!-- Playlist items added dynamically -->
+    </ul>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
