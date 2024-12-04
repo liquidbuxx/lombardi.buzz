@@ -1,15 +1,48 @@
 const tracks = [
     {
       title: "Against The Wind",
-      artist: "Pacemaker",
       url: "music/against the wind.mp3",
       albumArt: "music/album cover.png"
     },
     {
-      title: "Song 2",
-      artist: "Artist 2",
-      url: "https://example.com/song2.mp3",
-      albumArt: "https://example.com/art2.jpg"
+      title: "Stripe It",
+      url: "music/stripe it.mp3",
+      albumArt: "music/album cover.png"
+    }
+    {
+        title: "beatsbreak",
+        url: "music/beatsbreak.mp3",
+        albumArt: "music/album cover.png"
+    }
+    {
+        title: "Earplug",
+        url: "music/earplug.mp3",
+        albumArt: "music/album cover.png"
+    }
+    {
+        title: "guitar break",
+        url: "music/guitar break 10.8.24.mp3",
+        albumArt: "music/album cover.png"
+    }
+    {
+        title: "Fight Night",
+        url: "music/fight night (v2.mp3",
+        albumArt: "music/album cover.png"
+    }
+    {
+        title: "Sloped Ceiling",
+        url: "music/sloped ceiling (v4).mp3",
+        albumArt: "music/album cover.png"
+    }
+    {
+        title: "Part",
+        url: "music/part v2 no break.mp3",
+        albumArt: "music/album cover.png"
+    }
+    {
+        title: "Rain",
+        url: "music/rain.mp3",
+        albumArt: "music/album cover.png"
     }
   ];
   
