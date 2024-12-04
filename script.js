@@ -8,12 +8,12 @@ const tracks = [
       title: "Stripe It",
       url: "music/stripe it.mp3",
       albumArt: "music/album cover.png"
-    }
+    },
     {
         title: "beatsbreak",
         url: "music/beatsbreak.mp3",
         albumArt: "music/album cover.png"
-    }
+    },
   ];
   
   const audio = new Audio();
