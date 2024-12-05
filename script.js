@@ -13,6 +13,36 @@ const tracks = [
         title: "beatsbreak",
         url: "music/beatsbreak.mp3",
         albumArt: "music/album cover.png"
+    },
+    {
+        title: "Earplug",
+        url: "music/earplug.mp3",
+        albumArt: "music/album cover.png"
+    },
+    {
+        title: "guitar break",
+        url: "music/guitar break 10.8.24.mp3",
+        albumArt: "music/album cover.png"
+    },
+    {
+        title: "Fight Night",
+        url: "music/fight night (v2.mp3",
+        albumArt: "music/album cover.png"
+    },
+    {
+        title: "Sloped Ceiling",
+        url: "music/sloped ceiling (v4).mp3",
+        albumArt: "music/album cover.png"
+    },
+    {
+        title: "Part",
+        url: "music/part v2 no break.mp3",
+        albumArt: "music/album cover.png"
+    },
+    {
+        title: "Rain",
+        url: "music/rain.mp3",
+        albumArt: "music/album cover.png"
     }
   ];
   
