@@ -97,3 +97,45 @@ a:active    {color: #3f8058;}
     max-width: 160px;
     max-height: 160px;
 }
+#player {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #333;
+    border-radius: 10px;
+  }
+  
+#current-track {
+    display: flex;
+    align-items: center;
+  }
+  
+#album-art {
+    width: 250px;
+    height: 250px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+#track-info {
+    text-align: left;
+  }
+  
+#controls {
+    margin: 20px 0;
+  }
+  
+#playlist {
+    list-style: none;
+    padding: 0;
+  }
+  
+#playlist li {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+  }
+  
+#playlist li:hover {
+    background: #555;
+  }
