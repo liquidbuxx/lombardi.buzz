@@ -43,12 +43,13 @@ const tracks = [
         title: "Index Cards",
         url: "music/IX/09. index cards.mp3",
         albumArt: "music/IX/cover.png"
-    }
+    },
     {
         title: "Village",
         url: "music/IX/10. village.mp3",
         albumArt: "music/IX/cover.png"
-    }{
+    },
+    {
         title: "Video Camera",
         url: "music/IX/11. video camera.mp3",
         albumArt: "music/IX/cover.png"
