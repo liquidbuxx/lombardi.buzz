@@ -40,7 +40,14 @@
     </div>
     <button type="submit">Submit</button>
     </form>
-    <script src="submitIntercept.js"></script>
+    <script>
+	    window.addEventListener('submit-form-success-BLOCKID', (form) => {
+	        setTimeout(() => {
+                window.location.reload()
+            }, 1000);
+	    });
+    </script>
+
 
 </body>
 </html>
