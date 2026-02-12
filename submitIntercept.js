@@ -9,7 +9,8 @@ window.addEventListener("load", function() {
       body: data,
     })
     .then(() => {
-      alert("Success!");
+      setTimeout(function(){alert("success! reloading");},3000)
+      window.location.reload();
     })
   });
 });
