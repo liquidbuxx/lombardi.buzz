@@ -25,6 +25,7 @@
     <br>
     <br>
     <form
+        id="gameForm"
         method="post"
         action="https://script.google.com/macros/s/AKfycbxOWhycF3-KX7miQxthOxTPEeF8gNBqIAaDfDzvWgA8GUCZgf04_d5Ww-4uufKUYmUN0Q/exec"    
     >
@@ -42,13 +43,8 @@
     </div>
     <button type="submit">Submit</button>
     </form>
-    <script>
-	    window.addEventListener('submit-form-success-BLOCKID', (form) => {
-	        setTimeout(() => {
-                window.location.reload()
-            }, 1000);
-	    });
-    </script>
+    <script src="submitIntercept.js"></script>
+
 
 
 </body>
